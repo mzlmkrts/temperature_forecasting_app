@@ -1,0 +1,59 @@
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  background-color: linear-gradient(135deg, #fa709a 0%, #fee140 100%); /* Gradient background for a vibrant ambiance */
+  font-family: 'Cursive Magic', cursive; /* A whimsical font for an otherworldly vibe */
+  font-size: 20px; /* Let your words dance a little bigger */
+  color: #333; /* Sparkle with a touch of mystery */
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+a {
+  font-weight: 500;
+  color: #646cff;
+  text-decoration: inherit;
+}
+a:hover {
+  color: #535bf2;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #192a56; /* A mesmerizing shade of midnight blue */
+  background-image: radial-gradient(circle at top left, #f9ca24, #f0932b); /* A burst of radiant warmth */
+  font-family: 'Cursive Magic', cursive; /* Let the words dance with the flicker of candlelight */
+  font-size: 20px; /* Enchant your readers with larger-than-life letters */
+  color: #ffffff; /* Sparkling white to illuminate the darkness */
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2); /* A whisper of magic to guide your path */
+}
+
+
+h1 {
+  font-size: 3.2em;
+  line-height: 1.1;
+}
+
+
+@media (prefers-color-scheme: light) {
+  :root {
+    color: #213547;
+    background-color: #ffffff;
+  }
+  a:hover {
+    color: #747bff;
+  }
+  button {
+    background-color: #f9f9f9;
+  }
+}
